@@ -5,6 +5,17 @@
     <link>https://lorenzohill.github.io/</link>
     <description>Recent content on Lorenzo Hill Front-End Dev Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://lorenzohill.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jun 2022 19:05:37 -0500</lastBuildDate><atom:link href="https://lorenzohill.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Odin Project Foundations: HTML basics and CSS</title>
+      <link>https://lorenzohill.github.io/posts/130622-blog/</link>
+      <pubDate>Mon, 13 Jun 2022 19:05:37 -0500</pubDate>
+      
+      <guid>https://lorenzohill.github.io/posts/130622-blog/</guid>
+      <description>I started The Odin Project (TOP) in June of 2022. I have had some experience in HTML. When I was about 12, I would play around with the basic of HTML making basic websites that were just really comprised of heading Elements and they basically looked like this.
+&amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;This is a heading&amp;lt;h1&amp;gt; &amp;lt;p&amp;gt;Hello World&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; It was nothing too flashy, Just some HTML code to show up in a browser.</description>
+    </item>
+    
   </channel>
 </rss>

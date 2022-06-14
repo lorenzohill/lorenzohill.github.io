@@ -1,39 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Lorenzo Hill Front-End Tech Website</title>
+    <title>Posts on Lorenzo Hill Front-End Dev Website</title>
     <link>https://lorenzohill.github.io/posts/</link>
-    <description>Recent content in Posts on Lorenzo Hill Front-End Tech Website</description>
+    <description>Recent content in Posts on Lorenzo Hill Front-End Dev Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jun 2022 16:48:35 -0500</lastBuildDate><atom:link href="https://lorenzohill.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 19:05:37 -0500</lastBuildDate><atom:link href="https://lorenzohill.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Third</title>
-      <link>https://lorenzohill.github.io/posts/third/</link>
-      <pubDate>Mon, 13 Jun 2022 16:48:35 -0500</pubDate>
+      <title>The Odin Project Foundations: HTML basics and CSS</title>
+      <link>https://lorenzohill.github.io/posts/130622-blog/</link>
+      <pubDate>Mon, 13 Jun 2022 19:05:37 -0500</pubDate>
       
-      <guid>https://lorenzohill.github.io/posts/third/</guid>
-      <description>Here is another test post for my blog,
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis dapibus diam at sagittis. Cras mauris enim, efficitur quis felis aliquam, ullamcorper pretium augue. Cras a efficitur nulla, sodales lacinia odio. Aliquam lacinia velit a interdum sollicitudin. Vestibulum elit odio, imperdiet vel ante nec, hendrerit elementum nisl. Praesent elementum, quam tincidunt maximus sagittis, arcu felis ullamcorper risus, nec venenatis tellus nibh sed justo.</description>
-    </item>
-    
-    <item>
-      <title>Secondtestpost</title>
-      <link>https://lorenzohill.github.io/posts/secondtestpost/</link>
-      <pubDate>Mon, 13 Jun 2022 16:42:53 -0500</pubDate>
-      
-      <guid>https://lorenzohill.github.io/posts/secondtestpost/</guid>
-      <description>Here is another test post for my blog,
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis dapibus diam at sagittis. Cras mauris enim, efficitur quis felis aliquam, ullamcorper pretium augue. Cras a efficitur nulla, sodales lacinia odio. Aliquam lacinia velit a interdum sollicitudin. Vestibulum elit odio, imperdiet vel ante nec, hendrerit elementum nisl. Praesent elementum, quam tincidunt maximus sagittis, arcu felis ullamcorper risus, nec venenatis tellus nibh sed justo.</description>
-    </item>
-    
-    <item>
-      <title>FirstPost</title>
-      <link>https://lorenzohill.github.io/posts/firstpost/</link>
-      <pubDate>Mon, 13 Jun 2022 16:22:00 -0500</pubDate>
-      
-      <guid>https://lorenzohill.github.io/posts/firstpost/</guid>
-      <description>This is some content for my blog post</description>
+      <guid>https://lorenzohill.github.io/posts/130622-blog/</guid>
+      <description>I started The Odin Project (TOP) in June of 2022. I have had some experience in HTML. When I was about 12, I would play around with the basic of HTML making basic websites that were just really comprised of heading Elements and they basically looked like this.
+&amp;lt;html&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;This is a heading&amp;lt;h1&amp;gt; &amp;lt;p&amp;gt;Hello World&amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; It was nothing too flashy, Just some HTML code to show up in a browser.</description>
     </item>
     
   </channel>
