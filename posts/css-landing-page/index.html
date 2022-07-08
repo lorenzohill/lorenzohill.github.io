@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>CSS Landing Page | Lorenzo Hill Front-End Dev Website</title>
+<meta name="keywords" content="">
+<meta name="description" content="Picking up the CSS flexbox properties was something else. When I started the lessons, I thought it was going to be fine. It was just just laying out the boxes that would lay out how the website looks on a page. I was wrong in that thought.
+One of my first shortcomings was that my HTML was not formatted correctly and was not readable. One of the problems that I had with formatting was somewhere I missed the closing tag for a div.">
+<meta name="author" content="">
+<link rel="canonical" href="https://lorenzohill.github.io/posts/css-landing-page/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.41f2d211c00e636a3c229c52ef2d4299a66891ae66771098993b13bca7972ae6.css" integrity="sha256-QfLSEcAOY2o8IpxS7y1CmaZoka5mdxCYmTsTvKeXKuY=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://lorenzohill.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://lorenzohill.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://lorenzohill.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://lorenzohill.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://lorenzohill.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="CSS Landing Page" />
+<meta property="og:description" content="Picking up the CSS flexbox properties was something else. When I started the lessons, I thought it was going to be fine. It was just just laying out the boxes that would lay out how the website looks on a page. I was wrong in that thought.
+One of my first shortcomings was that my HTML was not formatted correctly and was not readable. One of the problems that I had with formatting was somewhere I missed the closing tag for a div." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lorenzohill.github.io/posts/css-landing-page/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-07-08T11:08:37-05:00" />
+<meta property="article:modified_time" content="2022-07-08T11:08:37-05:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CSS Landing Page"/>
+<meta name="twitter:description" content="Picking up the CSS flexbox properties was something else. When I started the lessons, I thought it was going to be fine. It was just just laying out the boxes that would lay out how the website looks on a page. I was wrong in that thought.
+One of my first shortcomings was that my HTML was not formatted correctly and was not readable. One of the problems that I had with formatting was somewhere I missed the closing tag for a div."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "CSS Landing Page",
+      "item": "https://lorenzohill.github.io/posts/css-landing-page/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "CSS Landing Page",
+  "name": "CSS Landing Page",
+  "description": "Picking up the CSS flexbox properties was something else. When I started the lessons, I thought it was going to be fine. It was just just laying out the boxes that would lay out how the website looks on a page. I was wrong in that thought.\nOne of my first shortcomings was that my HTML was not formatted correctly and was not readable. One of the problems that I had with formatting was somewhere I missed the closing tag for a div.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Picking up the CSS flexbox properties was something else. When I started the lessons, I thought it was going to be fine. It was just just laying out the boxes that would lay out how the website looks on a page. I was wrong in that thought.\nOne of my first shortcomings was that my HTML was not formatted correctly and was not readable. One of the problems that I had with formatting was somewhere I missed the closing tag for a div. When I was working on my CSS after I finished the first it was a nightmare. I made a debug selector so I could see the borders of all the divs. I started at the top and I made my way down the template site. The template site was to build a landing page. The layout had 4 main sections, a header and a footer. The heading and footer were straight forward. I encounter the problems starting in the first main section, the hero banner. When I first started the project, I did not understand how flexbox worked. What I struggled with was the parent and child relationships of elements in a flexbox. The first night I worked on this was a struggle because I did not understand it. I got into a very sour mood because I just could not understand why my code was not working. After about 3 hours of working on the design I decided to call it a night because I was not able to learn in the headspace that was created with the roadblock.\nI was beginning to doubt my abilities at that moment. I knew that I could overcome it. This was the first time in the project that I needed to use grit. This roadblock was not going to stop me. The next evening I decided that it was time to do some additional research. I started by looking at different resources that helped me understand the interactions. I learned how flexbox parent and child elements interacted with each other and what was needed to format the things I wanted. When I worked on the project that evening, I was able to format the hero banner the way that I wanted. This was a major success for me. I decided to end the evening after formatting the hero banner because I was getting later in the evening and I wanted to relax. The third day was the most productive of them all, I formatted the remaining sections of the landing page. One thing that I am going to look more into is sizing and the proper way of sizing elements. I successfully coded the landing page and properly formatted it to look like the example. Here is the live version of the code Live version of TOP Landing Page project.\nRepo link https://github.com/lorenzohill/landing-page\n",
+  "wordCount" : "474",
+  "inLanguage": "en",
+  "datePublished": "2022-07-08T11:08:37-05:00",
+  "dateModified": "2022-07-08T11:08:37-05:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://lorenzohill.github.io/posts/css-landing-page/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lorenzo Hill Front-End Dev Website",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://lorenzohill.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://lorenzohill.github.io/" accesskey="h" title="Lorenzo Hill Front-End Dev Website (Alt + H)">Lorenzo Hill Front-End Dev Website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      CSS Landing Page
+    </h1>
+    <div class="post-meta"><span title='2022-07-08 11:08:37 -0500 CDT'>July 8, 2022</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Picking up the CSS flexbox properties was something else. When I started the lessons, I thought it was going to be fine. It was just just laying out the boxes that would lay out how the website looks on a page. I was wrong in that thought.</p>
+<p>One of my first shortcomings was that my HTML was not formatted correctly and was not readable. One of the problems that I had with formatting was somewhere I missed the closing tag for a div. When I was working on my CSS after I finished the first it was a nightmare. I made a debug selector so I could see the borders of all the divs. I started at the top and I made my way down the template site. The template site was to build a landing page. The layout had 4 main sections, a header and a footer. The heading and footer were straight forward. I encounter the problems starting in the first main section, the hero banner. When I first started the project, I did not understand how flexbox worked. What I struggled with was the parent and child relationships of elements in a flexbox. The first night I worked on this was a struggle because I did not understand it. I got into a very sour mood because I just could not understand why my code was not working. After about 3 hours of working on the design I decided to call it a night because I was not able to learn in the headspace that
+was created with the roadblock.</p>
+<p>I was beginning to doubt my abilities at that moment. I knew that I could overcome it. This was the first time in the project that I needed to use grit. This roadblock was not going to stop me. The next evening I decided that it was time to do some additional research. I started by looking at different resources that helped me understand the interactions. I learned how flexbox parent and child elements interacted with each other and what was needed to format the things I wanted. When I worked on the project that evening, I was able to format the hero banner the way that I wanted. This was a major success for me.
+I decided to end the evening after formatting the hero banner because I was getting later in the evening and I wanted to relax. The third day was the most productive of them all, I formatted the remaining sections of the landing page. One thing that I am going to look more into is sizing and the proper way of sizing elements. I successfully coded the landing page and properly formatted it to look like the example. Here is the live version of the code <a href="https://lorenzohill.github.io/landing-page/">Live version of TOP Landing Page project.</a></p>
+<p>Repo link <a href="https://github.com/lorenzohill/landing-page">https://github.com/lorenzohill/landing-page</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://lorenzohill.github.io/">Lorenzo Hill Front-End Dev Website</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

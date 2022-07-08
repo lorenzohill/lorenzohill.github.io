@@ -6,7 +6,17 @@
     <description>Recent content on Lorenzo Hill Front-End Dev Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jun 2022 19:05:37 -0500</lastBuildDate><atom:link href="https://lorenzohill.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jul 2022 11:08:37 -0500</lastBuildDate><atom:link href="https://lorenzohill.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS Landing Page</title>
+      <link>https://lorenzohill.github.io/posts/css-landing-page/</link>
+      <pubDate>Fri, 08 Jul 2022 11:08:37 -0500</pubDate>
+      
+      <guid>https://lorenzohill.github.io/posts/css-landing-page/</guid>
+      <description>Picking up the CSS flexbox properties was something else. When I started the lessons, I thought it was going to be fine. It was just just laying out the boxes that would lay out how the website looks on a page. I was wrong in that thought.
+One of my first shortcomings was that my HTML was not formatted correctly and was not readable. One of the problems that I had with formatting was somewhere I missed the closing tag for a div.</description>
+    </item>
+    
     <item>
       <title>The Odin Project Foundations: HTML basics and CSS</title>
       <link>https://lorenzohill.github.io/posts/130622-blog/</link>
